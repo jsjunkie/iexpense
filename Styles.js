@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'purple',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -13,5 +13,23 @@ export const styles = StyleSheet.create({
   	position: 'absolute', 
   	top: 20, 
   	left: 0
-  }
+  },
+  numberInput: {
+    height:60, 
+    width: 300, 
+    fontSize: 24, 
+    padding: 10, 
+    marginBottom: 10, 
+    borderBottomColor: 'white',
+    color: 'white',
+  },
+  textInput: {
+    height:60, 
+    width: 300, 
+    fontSize: 24, 
+    padding: 10, 
+    marginBottom: 10,
+    borderBottomColor: 'white',
+    color: 'white',
+  },
 });
