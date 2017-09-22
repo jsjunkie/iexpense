@@ -7,4 +7,11 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  optionsButton: {
+  	height: 10, 
+  	width: 60, 
+  	position: 'absolute', 
+  	top: 20, 
+  	left: 0
+  }
 });

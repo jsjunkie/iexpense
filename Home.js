@@ -8,11 +8,13 @@ export default class Home extends React.Component {
 	}
 	render () {
 		return (<View style={styles.container}>
+					<View style={styles.optionsButton}>
+						<Button
+							onPress={() => this.props.navigation.navigate('DrawerOpen')}
+							title="Options">
+						</Button>
+					</View>
 					<Text>Home</Text>
-					<Button 
-						onPress={() => this.props.navigation.navigate('DrawerOpen')}
-						title="Open Drawer">
-					</Button>
 				</View>);
 	}
 }
